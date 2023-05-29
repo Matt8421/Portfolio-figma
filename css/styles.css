@@ -9,6 +9,8 @@
 }
 :root{
     --color-principal: #0872bf;
+    --color-secundario: #FDFDFD;
+
 }
 body{
     background-color:  #141a1a;
@@ -35,7 +37,7 @@ main{
     gap: 20px;
 }
 .header-left-title{
-    color: white;
+    color: var(--color-secundario);
     font-size: 28px;
     font-weight: 600;
 }
@@ -46,7 +48,7 @@ main{
 }
 .header-right a{
     text-decoration: none;
-    color: white;
+    color: var(--color-secundario);
     
 }
 .header-right a:hover {
@@ -76,7 +78,7 @@ main{
     width: 100%;
 }
 .s1-wrp-left p{
-    color: white;
+    color: var(--color-secundario);
     margin-bottom: 20px;
     line-height: 34px;
 }
@@ -89,7 +91,7 @@ main{
     color: var(--color-principal);
 }
 .s1-wrp-left h3{
-    color: white;
+    color: var(--color-secundario);
     font-weight: 500;
     line-height: 30px;
     margin-bottom: 20px;
@@ -104,7 +106,7 @@ main{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    color: white;
+    color: var(--color-secundario);
     border: 2px solid #0872bf;
     margin-bottom: 30px;
     box-shadow: 0px 2px 8px 0px rgba(255,255,255, 0.25);
@@ -116,7 +118,27 @@ main{
     display: flex;
     gap: 10px;
 }
-@media screen and ( max-width: 1300px){
+.s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.s2-wrp p{
+    color: var(--color-secundario);
+    font-size: 24px;
+    text-align: center;
+}  
+
+.s2-wrp h2{
+    color: var(--color-principal);
+    font-size: 40px;
+    
+}
+/* @media screen and ( max-width: 1300px){
     main{
         padding: 0 20px;
     }
@@ -152,4 +174,4 @@ main{
     .s1-wrp-right img{
         width: 300px;
     }
-}
+} */
