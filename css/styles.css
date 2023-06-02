@@ -56,7 +56,7 @@ main{
 }
 .s1{
     width: 100%;
-    margin-bottom: 100%;
+    
     display: flex;
     justify-content: center;
 }
@@ -118,26 +118,165 @@ main{
     display: flex;
     gap: 10px;
 }
-.s2 {
+.myServices {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     
+    align-content: space-around;
+    flex-direction: column;
 }
 
 
-.s2-wrp p{
+.myServices p{
     color: var(--color-secundario);
     font-size: 24px;
     text-align: center;
 }  
 
-.s2-wrp h2{
+.myServices h2{
     color: var(--color-principal);
     font-size: 40px;
     
 }
+.viñetas{
+    display: flex;
+    color: var(--color-secundario);
+    justify-content: space-between;
+
+}
+.viñetas div .tituloViñeta{
+    
+    font-size: 1.6rem;
+}
+.viñetas div  p{
+    font-size: 1.25rem;
+    text-align: justify;
+    display: flex;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+.viñetas div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30rem;
+    text-align: center;
+    gap: 2.25rem;
+    border: var(--color-principal) solid;
+    
+    box-shadow: 0px 4px 20px rgba(93, 173, 236, 0.23);
+    border-radius: 2.6rem;
+    background-image: linear-gradient rgba((#0B467C,#37536C ));
+}
+.s3-Projects{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.s3-Projects p{
+    color: var(--color-secundario);
+    margin-right: 5px;
+}
+.s3-Projects span{
+    color: var(--color-principal);
+    margin-left: 5px;
+}
+.s3-ProjectsTexto{
+    color: var(--color-secundario);
+    font-size: 23px;
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.s3-ProjectsViñetas{
+    display: flex;
+    /* justify-content: space-between; */
+   /*  overflow-x: hidden; */
+}
+.s3-ProjectsViñetas2{
+    flex-grow: 1;
+    flex-basis: 0;
+    white-space: nowrap;
+}
+.s3-Buttons{
+display: flex;
+justify-content: center;
+}
+
+
+.s3-ButtonLeft{
+margin-right: 10px;
+background-color:#0d92af;
+color: var(--color-secundario);
+font-size: 16px;
+background: linear-gradient(90deg, #0872BF 0%, #0D92AF 100%);
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+height: 39px;
+width: 93px;
+border-radius: 10px;
+}
+.s3-ButtonRight{
+margin-left: 10px;
+background-color: #0d92af;
+color: var(--color-secundario);
+font-size: 16px;
+background: linear-gradient(90deg, #0872BF 0%, #0D92AF 100%);
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+height: 39px;
+width: 93px;
+border-radius: 10px;
+}
+.s4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.s4 .Testimonials p{
+    color: var(--color-secundario);
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.s4 .Customers p{
+    color: var(--color-principal);
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+.s4-Viñetas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.s4-Buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.FooterPortfolio{
+    display: flex;
+    color: var(--color-secundario);
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
 /* @media screen and ( max-width: 1300px){
     main{
         padding: 0 20px;
