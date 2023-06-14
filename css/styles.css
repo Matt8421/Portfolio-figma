@@ -10,6 +10,8 @@
 :root{
     --color-principal: #0872bf;
     --color-secundario: #FDFDFD;
+    --color-button: #2B2E3C;
+
 
 }
 body{
@@ -263,14 +265,92 @@ border-radius: 10px;
     text-align: center;
     margin-top: 30px;
 }
-.FooterPortfolio{
+.Footer{
     display: flex;
     color: var(--color-secundario);
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.PortfolioRow1{
     font-size: 28px;
     margin-left: 100px;
 }
+.PortfolioRow2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.LeftContenedor{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+
+}
+.margin{
+    margin-left: 3rem;
+    padding-top: 4rem;
+}
 
 
+.RightContenedor{
+    margin-left: 6rem;
+    width: 50%;
+    margin-top: 2rem;
+    
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ButtonSubscribe{
+    padding: 10px 20px;
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+    z-index: 1000;
+    position: relative;
+    margin: 0% 0% 0% -49%;
+    border: 0.5px solid var(--color-principal);
+    
+    
+}
+.radius{
+    border-radius: 10px;
+
+}
+.ButtonMail{
+    background-color: var(--color-button);
+    color: var(--color-secundario);
+    padding: 12px 90px;
+    z-index: 1;
+    position: relative;
+    border: 0.5px solid var(--color-button);
+}
+.EndFooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+
+}
+.Linea1{
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+.Copyright{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.Social{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.Linea2{
+    margin-left: 5rem;
+    margin-right: 10rem;
+}
 
 
 
